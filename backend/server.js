@@ -7,7 +7,7 @@ const orderRoutes = require('./routes/orderRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'https://ecommerce-madhuri-project.netlify.app',
+  origin: 'https://ecommerce-ecru-one-18.vercel.app/',
   credentials:true
 }));
 app.use(express.json());
